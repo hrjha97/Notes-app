@@ -29,6 +29,8 @@ function addInput(){
         notediv.appendChild(deleteIcon);
         deleteIcon.onclick = function() {
             notediv.parentNode.removeChild(notediv);
+
+         notesBox.value = ""
         }
         
     
