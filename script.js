@@ -21,6 +21,7 @@ function addInput(){
         let notediv = document.createElement("div");
         notediv.className = "notes"
         notediv.textContent = notesBox.value;
+        notesBox.value = ""
         document.body.appendChild(notediv);
         var deleteIcon = document.createElement("span");
         deleteIcon.className = "delete-icon";
